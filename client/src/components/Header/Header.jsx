@@ -37,7 +37,7 @@ const Header = () => {
             <li>About</li>
             <li>Categories</li>
            </ul> 
-           <div className="center" onClick={()=>navigate("/")}>FazStore</div>
+           <div className="center" onClick={()=>navigate("/")}>ProjectStore</div>
            <div className="right">
             <TbSearch onClick={()=>setShowSearch(true)}/>
             <AiOutlineHeart/>
